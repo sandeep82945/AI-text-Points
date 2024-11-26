@@ -1,0 +1,300 @@
+True Sentences,Generated Sentences
+etc. The upper and lower bound is new and non-trivial.,This foundational work sets the stage for future research by providing a clear framework for understanding the statistical complexities involved.
+between different complexity notions are well explained.,"The relationships between complexities in adversarial/stochastic settings, and connections are articulated clearly."
+about. Please see the questions section.,"Specifically, the definitions and implications of the Decision-Estimation Coefficient could benefit from further elaboration."
+paper generalizes the analysis for multiple activation functions.,"However, the authors provide a novel perspective by linking the phenomenon of condensation to the multiplicity of activation functions, which adds a fresh dimension to the existing literature."
+"calculations are informative, they should not be called theorems as they are not rigorous.","The problem is with Theorem 5.1, although the theoretical analysis is insightful, it could benefit from clearer explanations and justifications to enhance its rigor."
+The figures are nice and illustrative.,"Overall, the paper is well-structured, but minor grammatical corrections would improve readability."
+"biases and training algorithms; also relevant for pruning, compressed networks etc.","This can yield new inductive insights into the design and training of neural architectures, potentially influencing future research directions."
+is significant since one must now account for how workers with different (arm/state-specific) expertise may interact (and influence arms' transitions) over time.,The technical work required to extend the problem setting in this way is substantial and demonstrates a clear understanding of the complexities involved.
+type of information within the domain(s) of interest. This will be particularly important in settings where there is heteroskedastic uncertainty about workers' intervention effects.,"While it is conventional to assume each arm's (worker-agnostic) transition matrix is known by the decision-maker in the planning setting, the assumption that this additional level of information is available should be explicitly stated and justified by the availability or learnability of this information in real-world applications."
+before introducing the new solution,which are crucial for understanding the limitations and capabilities of the proposed continual learning framework.
+unexplored in the CL community due to the difficulty of the topic.,"underexplored in existing literature, particularly in terms of formal guarantees and the implications of feature extraction."
+particular important to be clear about it when providing negative results such the lower bound in Sec. 5.,important for the authors to clarify the specific contexts in which their results are applicable to avoid misleading interpretations.
+see it expressed as a difference with the performance measured in the past on an observed task.,provide a clearer explanation of how this assumption interacts with the concept of catastrophic forgetting in practical scenarios.
+"learning baselines, but it would be beneficial for the community to understand how big is the gap between theory and practice.","learning benchmarks, which makes it challenging to assess its relevance for real-world applications."
+authors could discuss which realistic assumptions on the environments could provide a more favorable situation.,authors could discuss potential applications or scenarios where this lower bound might inform future research or practical implementations.
+and provided time complexity.,providing a thorough examination of the correlation clustering problem and its implications in the context of differential privacy.
+using noised agreement have novelty.,highlighting the advancements made in differentially private algorithms for correlation clustering.
+of the “absolute value” of negative edges to prevent confusion.,of positive and negative edges should be clearly defined to avoid ambiguity in the context of their results.
+"than the authors argued, exactly |G|/2 times higher than expected(The sensitivity of d is 2, as mentioned in line 227, and the sensitivity of d(v) is 1).","than what the authors have claimed, potentially affecting the overall privacy guarantees of their algorithm."
+to have motivated the authors is accepted by ICML.,"in multiple places, should be updated to reflect the final published version to ensure proper citation."
+"to follow manner, high clarity.",to understand manner.
+a previous uniform sampling method.,from previous dropout techniques.
+in terms of theoretical analysis.,phenomenon in autoregressive VAEs.
+proposed method in this paper,demonstrates the effectiveness of the proposed method.
+that the improvements over the baseline are significant.,about its broader implications in the field.
+why the authors chose \lambda=1 as their choice.,how this parameter affects the overall performance.
+"Yahoo dataset, the paper does not discuss it.","datasets used, which raises questions about the method's effectiveness."
+"(Theorem 1). Second, the iterated mean aggregation feature imputation algorithm can exaggerate the input discrimination (Theorem 2).","The propagation effect can break into two parts. First, the discrimination can propagate from input to output, leading to biased model predictions that reinforce existing disparities."
+iteration. The algorithm can provably satisfy epsilon-fairness.,"iteration of the imputation process, ensuring that the imputed features maintain a low discrimination risk while still achieving reasonable reconstruction accuracy."
+"and fairness, which is expected.","and fairness, indicating that while the proposed method can reduce discrimination risk, it may not always enhance model performance across all datasets."
+fair graph feature imputation algorithm.,"theoretical underpinnings of the discrimination risk metric, which may require further elaboration to enhance understanding among readers."
+"surprised if the same ideas used by survival analysis researchers haven't already been used by researchers in other fields that need to enforce monotonicity). That said, I think a paper that neatly shows that there's a general idea that subsumes existing approaches is valuable.","The proposed HLL method builds upon existing concepts in survival analysis, suggesting that it may not represent a significant leap in methodology."
+sound more complicated than they actually are.,"appear more complex than necessary, which could hinder understanding."
+lattice layer in the case of partially monotone regression.,"Lattice models, particularly in terms of handling high-dimensional inputs without sacrificing performance."
+why the proposed method clearly works and we really don't need a specialized training procedure.,A simple running example throughout the paper could clarify the concepts and demonstrate the advantages of HLL.
+done in survival analysis but I'd assume that it's also done in other fields too).,a common approach in survival analysis and could provide context for the contributions of HLL.
+that is not grammatically correct and detracts from reading the paper). As a few examples:,that disrupts the flow of the narrative.
+"other features are equal [Potharst and Feelders, 2002].""","monotonicity constraints are satisfied, the results can be interpreted more easily."
+"et al., 2016], and they can be used for fair machine learning [Wang and Gupta, 2020].""","et al., 2016]."
+networks. Lifetime Data Analysis. 2021 Oct;27(4):710-36.,networks is a relevant reference that could enhance the discussion on monotonicity in regression models.
+"search approaches are worse. The paper is well written overall, though the explanation/motivation of the proposal distribution could be made clearer.","They also provide a framework, baselines, and an improved hybrid method, as well as some understanding of why beam search performs poorly in high-entropy scenarios."
+hazard function / etc. that is easier to work with. For neural models there is less structure to work with.,"However, as far as I know, they usually assume some parametric form for the underlying probabilistic model, which this paper seeks to address."
+to estimate the gap between the beam search lower bound and the true probability.,This hybrid method effectively leverages the strengths of both techniques to improve query estimation accuracy.
+"models (LSTMs, GPT2 (which one?) ).","demonstrates the applicability of their methods across different domains, highlighting the versatility of their approach."
+bounds that have been compared.,bounds significantly.
+property of MWU mapping.,mapping techniques.
+decentralized multi-agent online learning algorithm.,approach in the field.
+are justified via proofs.,are substantiated with rigorous proofs.
+important for online multi-agent game learning.,efficient and easy to understand.
+This goes beyond the standard metric in learning games.,This allows for more targeted learning dynamics.
+an important advance in learning normal form games.,This is a significant advancement in the study of online learning.
+"graph data settings, considering the number of adversarial nodes (users) is more important than considering the magnitude of adversarial perturbation on each node.","This seems a realistic setting to me - in practical scenarios, adversaries may not be limited in the extent of their perturbations."
+approaches show the flexibility of their approach to different cases.,"The authors evaluate their approach in different settings, e.g. with skip-connections and under different sparsifications."
+"as long as both nodes of the edge are considered as adv nodes, although such a bound seems like a loose bound.",The paper does not discuss the applicability of their approach against this type of attack.
+Learning[C]//International Conference on Learning Representations. 2018.,"to potentially address edge-modification attacks, which are a significant concern in GNN robustness."
+the 28th International Joint Conference on Artificial Intelligence. 2019: 3961-3967.,"If I understand correctly, the exact certification provided by the algorithm is limited to specific adversarial perturbations on designated nodes."
+"The latter is a more useful certificate that can be achieved by previous approaches, while the current one is limited to a specified node set.",This limitation may hinder the practical applicability of the certification in real-world scenarios where multiple nodes could be compromised simultaneously.
+of barely robust learners. The theoretical results are quite solid.,"The proposed method, -RoBoost, effectively enhances the robustness of barely robust learners."
+another way to study the robustness.,a new perspective on adversarial robustness.
+spirit in the algorithms and proofs.,relationship between barely robust learning and strongly robust learning.
+method random smooth might fail in verifying the $\ell_\infty$ robustness for high-dimensional images. So the realizability of the proposed algorithm highly depends on the development of robust verification.,This highlights the need for further research into efficient certification methods for robustness.
+"Images."" J. Mach. Learn. Res. 21 (2020): 211-1.",approaches for certifying robustness may not be sufficient for high-dimensional data.
+well-known competitive benchmarks.,"the MS COCO and CrowdPose datasets, demonstrating the effectiveness of the proposed QueryPose framework."
+several modules does. Figure 2 is particularly helpful.,"components and modules do, making it easier for readers to understand the overall approach."
+reproduce the reported results using the description provided in the paper.,reproduce the results without access to the implementation details.
+are several modules involved.,are several intricate components that may require careful tuning to achieve optimal performance.
+times need to be provided in the updated manuscript.,times should be included to give a clearer picture of the method's practicality in real-world applications.
+numerical simulations show the advantages over other federated multi-kernel learning algorithms.,The proposed method effectively addresses the challenges of communication efficiency and heterogeneous data in federated learning.
+their proposed algorithm well.,the claims made regarding the performance and efficiency of the proposed algorithm.
+subset selection. One may think the contribution is not very large.,The core contribution is that the paper achieves personalization via kernel selection tailored to individual client data.
+with other personalized federated learning papers in the absence of multi-kennel learning.,"Since the paper focuses on personalized federated learning, the authors should cite and compare their algorithm with recent advancements in personalized federated learning frameworks."
+"CIFAR-100, and even IMAGENET. The current datasets have small features.","In federated learning, it’s usual to compare different algorithms in datasets like MNIST, FMNIST, and CIFAR-10 to demonstrate generalizability and robustness."
+this with a self-supervised backbone is also carefully considered.,"This approach allows the committee to adaptively focus on the most challenging bias-conflicting samples, enhancing the overall debiasing process."
+bias-guiding samples especially in long-tailed datasets,"bias-guiding samples, especially if the dataset has a more balanced distribution of classes."
+possibly be achieved due to other factors as well?,Higher enrichment can be illustrated through additional metrics or visualizations that explicitly show the committee's performance on bias-conflicting samples compared to bias-guiding ones.
+a broad variety of downstream problems,the advancement of probabilistic programming systems.
+with 100*K dimensionalities,demonstrate the effectiveness of the proposed method.
+for variational inference settings,and showcase the robustness of the SDVI approach.
+to PPL readers,which aids in understanding the proposed methodology.
+without probabilistic ML background,who are not familiar with advanced probabilistic programming concepts.
+is novel and efficient.,interactions is a novel approach that enhances the understanding of video content.
+also provide the code to reproduce.,provide a comprehensive analysis of related work and clearly articulate the contributions of VITA.
+of the proposed method.,of VITA in achieving state-of-the-art results across multiple datasets.
+This paper provides a new perspective for such areas.,The proposed method addresses these challenges effectively by leveraging object-centric tokens.
+see the results using image instance segmentation as the same as SeqFormer.,see a more detailed discussion on the limitations of such comparisons and how VITA's unique contributions stand apart.
+is to use part of object queries to ensure each frame has an equal number of queries.,to optimize the query selection process could further enhance the model's efficiency and performance.
+YouTube-VIS-2022 experimental results?,additional qualitative results to illustrate the advantages of VITA over existing methods?
+reference value for practitioners.,The proposal is sound and appears to have good experimental validation.
+prior art to demonstrate its effectiveness.,The method is tested with large public datasets and compared to various existing models.
+requires some clarification.,At places the writing of the paper could benefit from improved clarity.
+benchmarks to learn the performance predictor.,benchmark datasets to improve the efficiency of neural architecture search.
+the network's feature space and the label distribution.,the source and target architecture spaces through a progressive subspace partition.
+good ablation studies.,a comprehensive experimental evaluation demonstrating the effectiveness of their approach.
+function-space inference of neural networks (and not only).,It introduces a novel approach that effectively combines Gaussian measures with deep learning architectures.
+it is sufficiently self-contained,The structure of the paper aids in understanding the complex concepts involved.
+"common for all variational inference methods in function space with Gaussian posterior, but I would still appreciate a comment from the Authors on this.",This limitation may restrict the flexibility needed to capture more complex posterior distributions.
+"various papers. Did you use the same models, same architectures, and same setup?","My only concern is on the comparison with other methods, given that those numbers have been copied from previous works without sufficient justification."
+citations when proceedings are available).,This would enhance the professionalism and readability of the paper.
+Maybe a uniform notation is easier to follow.,This inconsistency could lead to confusion for the reader.
+Deep Gaussian Process Perspective. NeurIPS 2021,This work provides valuable insights that could be relevant to the discussions in this paper.
+to understand the proposed approach.,"The authors provide a thorough overview of the advancements in AI, particularly in the context of transformer models and quantization techniques."
+the proposed approach.,the methodology employed for binarizing transformer models is well-articulated.
+model replicability.,training binarized models are effectively summarized.
+work on the GLUE benchmark.,"works, demonstrating the advantages of their approach over previous methods."
+performance compared to previous SOTA.,"performance metrics, significantly narrowing the accuracy gap with full-precision models."
+hyper-parameters could affect the model performance.,the quantization schedule impact the overall performance of the model.
+of lottery tickets.,of sparse networks in data-limited image recognition.
+"used in combination of other techniques for limited-data regimes, such as data augmentation.",The authors consider also the case where lottery tickets are effective in long-tailed classification scenarios.
+easy to follow.,structured logically.
+explain the performance shown in the experiments and identifies the properties of the lottery tickets that are useful in this context.,"Since the paper is an empirical study, it is important to provide also an analysis that tries to elucidate the underlying mechanisms contributing to the observed performance improvements."
+I am curious to see if the same results could be obtained using also other architectures.,"In the paper, the authors perform all the experiments using ResNet-18, which is a quite simple architecture, and exploring more complex models could provide additional insights."
+"context of image classification, there are some results in NLP.","Even though there are no prior works on sparse networks for data-limited regimes in the literature, the findings align with existing knowledge on the benefits of sparsity in neural networks."
+into existing PAC-Bayes bound to make the bound non-vacuous.,which provides a novel perspective on understanding generalization in neural networks.
+a quantization technique to compress the model further to regularize the model of interest further according to the Occam's razor.,"These methods enhance the adaptability of the model to the complexity of the dataset, leading to improved performance."
+as an engineering technique to optimize [38].,to require further empirical validation to fully establish its effectiveness across various tasks.
+make the paper more convincing if those methods could be reproduced and evaluated on the datasets of interest.,"It seems that previous methods on non-vacuous PAC-Bayes bounds do not include results on several datasets, but it would be beneficial to compare against a broader range of existing approaches to strengthen the claims made."
+learning. This is a natural and interesting extension of NCD.,This approach is significant as it addresses the challenges posed by real-world applications where data is continuously streamed.
+outperforming the compared baselines.,The results demonstrate the effectiveness of the proposed Grow and Merge framework in maintaining classification accuracy while discovering new categories.
+phases increased the complexity and meomery&computation cost for training.,"The extra branches and grow-merge strategy, while innovative, may rely heavily on existing frameworks, which could limit the novelty of the approach."
+perhaps more different proportions can be used? How the different classes in each time step are constructed? randomly sampling or predefined in some way?,"Also, the data splits for different time steps for the MI case vary a lot, which seems strange; why not adopt a consistent proportion for all?"
+"different datasets are used in the literature, e.g, CIFAR10, ImageNet, Stanford-Cars FGVC-Aircraft in DRNCD [15].","For more challenging cases, a larger dataset could be more useful, as it would better simulate real-world scenarios where the number of new categories can be substantial."
+in each incremental time step.,"This assumption may not hold in practical applications, and exploring methods to estimate the number of new categories could enhance the framework's applicability."
+theories and the algorithm are presented clearly with convincing empirical results.,This contribution is significant as it addresses limitations in traditional CMDP approaches.
+of the proposed SICMDP framework pretty clear.,They effectively illustrate the practical relevance of the proposed SICMDP framework.
+organized and easy to follow.,Its design allows for efficient handling of the complex constraints introduced in the SICMDP.
+and sample complexity for the proposed algorithm.,"The authors provide both the computational complexity and sample complexity bounds, which are essential for understanding the algorithm's performance."
+method both in terms of reducing constraint violations and minimizing the errors.,"The results clearly show that SI-CRL outperforms the baseline methods, demonstrating its effectiveness in practical applications."
+"many variants, domain changes, etc.",various types of graph structures and signal processing techniques.
+on scattering hold,are well integrated into the framework.
+supplementary material,theoretical foundation is provided.
+for graph regression,in demonstrating the effectiveness of the proposed methods on complex datasets.
+"actual architecture is, if this is just an abstract formulation of previous architecture or if there is something fundamentally new here. Examples of implementation on graphs along the abstract description could really help the understanding of the approach.",specific implications of these choices are for practical applications and how they relate to traditional graph-based methods.
+"experiments (changing graphs, higher-order tensors...)","the numerical experiments, which could limit the practical applicability of the proposed framework."
+all of them is not given,the conditions laid out would enhance the clarity and applicability of the theoretical results.
+namely solving NP-hard CO problems.,The significance of this research lies in its potential to enhance the efficiency of various industries.
+problems in addition to learning to find near-optimal solutions.,This innovative approach not only improves the performance of existing models but also introduces a new perspective on leveraging symmetric properties in optimization.
+complimentary to a broad variety of prior work.,This ease of integration could facilitate the adoption of Sym-NCO in practical scenarios.
+areas (see below).,This lack of clarity may hinder the reader's understanding of the contributions made by the authors.
+than those of prior works.,Larger problem sizes should be explored to validate the effectiveness of the proposed method.
+and inconsistencies (see below).,These shortcomings may undermine the credibility of the findings presented.
+in the context of the current literature.,A more thorough review of related works would strengthen the paper's foundation and highlight its contributions more effectively.
+is easy to follow,The paper is written well and presents a clear and structured approach to the problem.
+reduce the issue of noisy pseudo-labels,"The proposed method with the assistant model is simple and effective, which can lead to improved segmentation accuracy."
+a generally useful tool for other tasks,The proposed feature transmission from the assistant model to the student model can be beneficial in improving feature representation.
+on two datasets,"Experiments show good performance improvements, demonstrating the effectiveness of the proposed method."
+explained very well,"Some hyperparameters and technical details are not clearly defined, which may hinder understanding."
+in Eq. (6)?,"What is the τ value used in the re-weighting strategy, and how is it determined?"
+a constant or varied and how?,"How do the authors select the threshold for pseudo-labeling, i.e., is γ a constant or does it vary during training?"
+">1000/2000 labeled images, which can be a more practical situation in real applications.","Table 4-7 are conducted on a smaller labeled set (183 images). However, I wonder how Table 4-7 would look like when there are more labeled data, e.g., with 1000 or 2000 images, which could provide insights into scalability."
+is the intuition behind it? The authors may have more discussions on this.,"In Table 6, the teacher model performs better than the student model. It's interesting to know whether it is the same case for all experimental settings. If so, what does this indicate about the effectiveness of the teacher-student framework?"
+"Semantic Segmentation, BMVC'18",Adversarial Learning for Semi-Supervised Segmentation could be an interesting area for future exploration.
+"low-level consistency, PAMI'19",Semi-supervised semantic segmentation with high-and low-confidence pseudo labels is a relevant area of research.
+"Self-Correcting Networks, CVPR'20",Semi-Supervised Semantic Image Segmentation With Generative Adversarial Networks is a promising direction.
+"a Class-Wise Memory Bank, ICCV'21",Semi-Supervised Semantic Segmentation With Pixel-Level Contrastive Learning From Unlabeled Data is an emerging trend worth investigating.
+a model is interesting.,The idea of collaboratively pruning all components of ViTs is innovative and addresses a significant gap in the current literature on model compression.
+to sufficient state-of-the-art methods.,"The performance gain is impressive when compared to previous state-of-the-art methods, particularly in terms of accuracy and computational efficiency."
+easy to follow.,This paper is well-written and presents a clear methodology for the proposed pruning approach.
+"pruning, when compared to state-of-the-art network pruning methods.","It's not clear how much computation cost and data is needed for the proposed method during the pruning process, which could impact its practical applicability."
+(4) or only drop the cross-components terms (green blocks in Figure 2(b))? I think the latter one can better reflect the main contribution of the proposed method.,"The main novelty of this work is the interaction of different components during pruning, so the ablation study on this design is important. In my understanding, Line 297-305 and Table 7 aim to give such ablation studies, while it's not clear whether the setting of 'without second-order interactions' (Line 300) in this ablation study means dropping all Hessian-based terms in Eq. 2, which should be clarified for better understanding."
+the technical part seems correct.,presents a novel approach to offline reinforcement learning.
+"updates (or perform elimination in version space algorithms) and define policy with LCB or take minimum over the remaining set of functions (for pessimism) (for example, [1]).",update on the Q-values and apply pessimism directly during the policy optimization phase.
+happen. It could be better to provide some more intuitive scenario or even a closed-form construction.,"happen, highlighting the critical flaw in the shared target approach."
+"shared-LCB Ens., Shared-Min Deep Ens, and with a different number of ensembles)","Shared-LCB and Shared-Min), demonstrating the importance of independent targets."
+the results. c) The experiments are performed on extensive benchmarks.,"the results, ensuring a fair comparison with the proposed method."
+"the NTK setting, it still has some gap between the practical situations.","specific assumptions, further empirical validation in diverse settings would strengthen the claims."
+the empirical merits of the proposed algorithm.,the direct comparability of the performance across those tasks.
+information processing systems 34 (2021): 6683-6694.,"information processing systems, provides a relevant context for the discussion on pessimism in offline RL."
+help optimize the qEHVI criterion;,provide a comprehensive understanding of trade-offs among multiple objectives.
+build it with backpropagation is original.,facilitate decision-making by allowing users to explore various trade-offs interactively.
+speed and sample efficiency.,demonstrating the efficiency and effectiveness of the proposed approach.
+in the multi-objective literature.,"in previous works, but this method uniquely focuses on learning the entire set."
+qEHVI criterion.,Gaussian process models to approximate the objectives.
+is not shown.,"is not extensively discussed, which could be a limitation."
+see Questions below.,such as the choice of hyperparameters and their impact on performance.
+good novelty.,a well-defined research question.
+generalization bound and may arise much more research attention in the community.,generalization bounds due to the complexities involved in the multi-vector representation.
+"CML-based algorithms, and the experiment results seem promising.","state-of-the-art methods, demonstrating significant improvements across various metrics."
+and easy to understand.,with a logical flow and clear structure.
+are a few typos and mistakes in grammar:,are instances of grammatical errors and awkward phrasing that need to be addressed.
+this sentence should be polished.,the authors should clarify what specific aspects are being compared.
+“Hard” should be “hard”.,the notation used for the datasets should be consistent throughout.
+should be “…training/validation/test sets”.,should be clearly defined in the context of the experiments.
+“Fig.7” should be “Fig.12”.,the results should include more detailed statistical analysis.
+to make it easy for the reader to follow.,to enhance the paper's clarity and rigor.
+"good novelty, clear theoretical guarantees, and convincing empirical results.",the potential to make a significant contribution to the field of recommender systems.
+in the field of FL.,The authors effectively address this gap by proposing a novel approach.
+MI-based sampling framework more practicaly feasible.,methodology more efficient and scalable.
+data settings and multiple models.,datasets and demonstrating the robustness of their approach.
+the whole process.,"the design of their algorithms, ensuring secure data handling."
+the case for many VFL scenarios.,"realistic in all federated learning scenarios, potentially limiting the applicability of their findings."
+over a multitude of clients can be problematic.,may lead to suboptimal participant selection and should be explored further.
+"""# participants"", ""$NN_{k, y_q}$"", ""All-train"", etc.",the term 'leader participant' could be better defined to avoid ambiguity.
+updated my score to accept,found the revisions to be satisfactory and the paper has improved significantly.
+"to the authors, nobody has attempted to provide a hyperparameter tuning-free approach to the switching between synchronous and asynchronous training modes.","It introduces a novel approach that allows for efficient switching between training modes without the need for hyper-parameter tuning, which is a significant advancement in the field."
+gaps in the current work. This provides clarity on the choices and explains the conducted experiments.,challenges faced in training recommendation models effectively in dynamic environments.
+that the methods in the figure and their performance do not correspond to the description in the text.,that the presentation of results could be enhanced to better convey the implications of the findings.
+"this impact might translate to better resource utilization and, therefore, cost savings.",I believe that its practical applications could lead to significant improvements in training efficiency and model performance in real-world scenarios.
+deliberately designed to model the evolution process of graphical conventions through a Pictionary-like game.,It provides a foundational framework for understanding how sketches can evolve as a communication medium.
+used to smooth the abstraction process.,The proposed learning framework and evaluation metrics are well-defined.
+importance to enable quantitative measurements on visual communication.,These metrics provide a comprehensive understanding of the properties of the evolved sketches.
+target sketch $\hat{I_S}$ produced from image $I_S$.,Higher quality sketches could lead to improved communication success rates.
+"images per class, making the experiments somehow insufficient.",This limited dataset may affect the generalizability of the findings.
+"dataset, which could inspire more related work.",data summary that retains essential user-item interactions.
+more robust to noise compared to SOTA.,efficient in terms of computational resources.
+understand the proposed approach as these are pretty new topics in recommendation systems.,understand the theoretical foundations and implications of these concepts in the context of recommendation systems.
+"besides $\infty$-AE, e.g., how the synthesized data summaries work with other autoencoder-based recommendation systems?",to validate its versatility and effectiveness across different architectures.
+based on the percentage of user number can help the audiences better understand the results?,"based on a specific rationale that ensures fair comparison across datasets, or could it be adjusted to reflect the scale of each dataset more appropriately?"
+paper is in its novel combination of existing ideas to produce a very simple hybrid framework that effectively combines the strength of convolutions and transformers.,The strength of this approach is in its ability to leverage both local and global features effectively.
+avoid the requirement of keeping all tokens in stage 3.,enhance computational efficiency while maintaining representation quality.
+pyramid with local context via convolutions and global context using transformers.,It is a nice way to generate a feature hierarchy that can be beneficial for various downstream tasks.
+outperform existing masking techniques for larger models. There is also limited runtime comparison with existing techniques.,It would be nice to see whether the proposed scheme continues to perform well across different model scales.
+"masking, regular convolutions, multi-scale decoders etc.",masking strategies with the proposed block-wise masking approach.
+and explains the concepts with ease.,making it easy to follow the proposed methods and results.
+-> pretraining,should be corrected to 'pretraining'.
+image and outperforms a number of existing techniques.,efficient masking strategy that enhances the learning of visual features.
+Middle). It is easy to follow.,"The clarity of the presentation is commendable, particularly in Figure 5, which effectively illustrates the key findings."
+"different KD methods, teacher-student architectures).",The TLLM framework demonstrates significant enhancements across various distillation methods on CIFAR-100.
+"be treated as undistillable classes. Therefore, the proposed TLLM avoids such situations by eliminating classes where the teacher's predictions are largely incorrect and replacing them with ground-truth labels (one-hot vectors). Some analysis I’d like to see are:","The definition of undistillable classes may be overly complex; a simpler explanation could be that the teacher network, with a top-1 accuracy of 76.2%, inherently makes errors, leading to a subset of classes that are misclassified."
+for regular and undistillable classes?,The average accuracy of the ResNet-50 teacher is 76.2% as reported in Table 3.
+3 for regular and undistillable classes?,It would be beneficial to provide a detailed breakdown of the improvements ($\Delta$) observed in Tables 2 and 3.
+similar to Table 2 for ImageNet to show the improvements of the proposed TLLM scheme?,The reliance on only the KR baseline for ImageNet experiments limits the assessment of TLLM's efficacy; it would be helpful to include additional baseline comparisons in a table.
+68.900%. Please clarify. Link to public pytorch models with top1 accuracies: https://pytorch.org/vision/stable/models.html,"The reported baseline performance of MobileNetV2 in Table 3 appears to be significantly lower than expected, as the top-1 accuracy should be around 72.154%."
+"3. I suspect that a noticeable amount of improvement can be obtained by using label smoothing, especially if undistillable classes are semantically similar classes (See [2, 3]).","Given that label smoothing is applied to undistillable classes, it is essential to include comparisons with students trained using label smoothing to provide a fair assessment of the reported baselines."
+in Supplementary as well).,The results for CUB200 knowledge distillation are currently absent and should be included for a comprehensive evaluation.
+happy to change my opinion based on the rebuttal.,"While this paper presents interesting ideas, I believe that its weaknesses may overshadow its strengths."
+on the rebuttal.,I appreciate the authors' efforts in producing this work.
+understanding of undistillable classes still remains unclear.,"I have revised my recommendation upward, as the authors have satisfactorily addressed most of my concerns, although some concrete details remain."
+on the proposed TLLM framework.,It is important to include detailed information regarding the impact of label smoothing in the analysis.
+in neural information processing systems 32 (2019).,"[1] Müller, Rafael, Simon Kornblith, and Geoffrey E. Hinton. ""When does label smoothing help?"" provides insights into the benefits of label smoothing."
+incompatible with knowledge distillation: An empirical study. In ICLR,[2] Shen et al. (2021) explore whether label smoothing is genuinely effective in various contexts.
+and Knowledge Distillation Compatibility: What was Missing?. ICML,[3] Chandrasegaran et al. (2022) revisit the concept of label smoothing and its implications for model performance.
+models. The numerical results are convincing.,"This framework effectively combines speed and optimization capabilities, making it a significant advancement in the field."
+descent can be long as well as the line search).,"Additionally, the reliance on multiple steps may complicate the implementation process for practitioners."
+considered in the current contribution.,This could potentially affect the reliability of the risk scores in high-stakes applications.
+application and can be of use to the community and for content creators.,It targets a useful and challenging problem in the field of GAN adaptation.
+are reasonable in the context of face to face translation.,"Moreover, the two metrics used, Normalized Mean Error (NME) and Identity Similarity (IS), provide a comprehensive assessment of the model's performance."
+results presented in the experimental section.,The proposed framework effectively addresses both style and entity transfer.
+situate the proposed method within other methods in the literature.,The related work is not well redacted and fails to provide a comprehensive overview of existing approaches.
+source-target images and risks providing only a biased positive view of the results.,"Instead, those are only computed on hand-picked examples, which may not represent the overall performance of the method."
+subset of data) for the source and target domains in order to draw more robust conclusions.,"Instead of computing them on a handful of samples, they should be computed over a dataset (or a randomly chosen subset) to ensure robustness and generalizability of the results."
+for a number of ML applications.,contribution to the field.
+good alternative to having to choose a fixed one.,significant advancement.
+clearly presented results,clear explanations and logical flow.
+"form of concave composed modular function, which is too limited.",specific types tested.
+simple to capture complex functions.,limited in its scope.
+baseline is limited (see questions).,demonstrates clear advantages.
+"Journal on Computing 47.3: 703-754, 2018.",provides foundational insights.
+"juntas. SIAM Journal on Computing, 45(3):1129–1170, 2016.",establishes important theoretical limits.
+"the Association for Computational Linguistics, pages 224–233. Association for Computational Linguistics, 2012.","the Association for Computational Linguistics, highlights practical applications."
+for data augmentation,that effectively addresses the challenges of data augmentation.
+when implemented correctly,in enhancing model performance across various tasks.
+interpretation of the method is sound.,foundations laid out provide a solid basis for the proposed method.
+manuscript to show the effectiveness of the proposed LP-A3.,"study, showcasing the versatility and robustness of LP-A3."
+provide the selection detail to make the manuscript self-contained.,provide a more detailed explanation of the selection criteria and its impact on performance.
+LP-A3 on CIFRA10/100 in a supervised classification manner? Evaluation with other backbone networks rather than ResNet-18 and ResNet-50 is also important.,LP-A3 compared to other state-of-the-art methods across a broader range of datasets?
+"dataset, such as ImageNet","datasets, particularly in comparison to existing augmentation techniques?"
+"The author stated that some data augmentations are useless to apply data augmentation, which did not convince me.","This suggests that not all data may benefit equally from augmentation, highlighting the importance of selective application."
+in the $L^p$ norm is a necessary complement to our current understanding of the approximation problem.,The approximation results presented in this paper provide valuable insights into the limitations and capabilities of neural networks in this context.
+the paper in a quite accessible way.,"them in a clear and structured manner, making the complex concepts more accessible."
+in practice these two norms can make a difference.,"However, it is not obvious how these results will translate into practical applications in neural network design."
+policies via well-motivated structural-relation loss constraint,This approach effectively captures the complex dynamics of multi-agent environments.
+various multi-agent environments,the experiments demonstrate significant improvements over existing baselines.
+"the proposed method, as well as discussed.",These studies provide clear insights into the contributions of each part of the proposed method.
+include a comparison with MADT-online too.,Authors should consider including comparisons with other state-of-the-art methods for a more comprehensive evaluation.
+simpler transformer-based method MADT performs comparable to the proposed method.,"In environments like SMAC (where number of agents > 2), the centralized decision transformer may become a bottleneck."
+errors in the text,These should be addressed to improve the overall readability of the paper.
+"related works, the algorithms proposed in this paper achieve the best convergence rate with known condition number","The proposed methods effectively address the challenges posed by non-smooth outer functions, thus expanding the applicability of bilevel optimization."
+but the previous works can not. It is good to mention more examples/applications of using non-smooth objectives.,"This may narrow the unique field of application of this work, i.e. this work can do more than just handle $L_1$ regularization, as the methods can be adapted to other non-smooth scenarios in various machine learning tasks."
+cover the range of the task distribution,the proposed Adversarial Task Up-sampling (ATU) framework addresses this issue effectively.
+more comments about the method (see below),appreciated the clarity in the explanation of the task up-sampling network and its objectives.
+"classification, regression and cross-domain tasks",the performance across different datasets and meta-learning methods.
+the improvements. The gap between MLTI and the proposed method is not too much (except for ISIC).,the variability and reliability of the reported performance metrics.
+see some more discussion and insights around it as I believe it's a more realistic scenario for few-shot learning,see a more in-depth analysis of how task augmentation affects generalization in these scenarios.
+on the generation cost and how you incorporate task augmentation during meta-training?,on the training time and resource requirements for implementing the ATU framework.
+results would be better than the theoretical analysis in this regard.,theoretical claims would strengthen the overall argument of the paper.
+"computation with large speed boost) compared to Neural Interpreters, are impressive.",The introduction of these features demonstrates a thoughtful approach to enhancing model flexibility and efficiency.
+figures are well-made and very helpful.,The organization of the paper aids in understanding the complex concepts presented.
+improved. E.g. Perceiver IO was evaluated on 6 different modalities (Table 5 in their paper) and against non-general purpose baselines within each modality.,"To claim that NAC is a stronger general purpose architecture, the scope of the comparisons (now only few-shot adaptation and OOD generalization in CV datasets) and the number of baselines (now only Perceiver IO) both need to be reasonably expanded."
+and will inspire or lead to future breakthroughs.,More comprehensive experiments across diverse datasets and additional baselines would strengthen the claims made in the paper.
+with comprehensive details.,and presents a clear and coherent argument throughout.
+by a large margin,demonstrating significant improvements in zero-shot transfer learning tasks.
+existing works even though the application scenario is new,"previously established concepts in the literature, lacking a groundbreaking innovation."
+with initial hypothesis and then tests those hypothesis on CW10/CW20 benchmarks.,I like the fact that it uses pairs of tasks to come up with insightful observations about the transfer mechanisms.
+still achieving state of the art performance in CW10/CW20,It effectively integrates the findings to enhance performance in continual reinforcement learning.
+do appreciate the authors being very upfront about the limitations of the work.,"Hence, there’s a possibility that these findings are true only for the CW benchmarks, and further validation in diverse environments would strengthen the conclusions."
+new to me. Relevant literatures are well discussed.,The proposed approach seems innovative and provides a fresh perspective on private data generation.
+algorithm and the experiments are missing (see my questions below).,"However, some details of the implementation could be elaborated further to enhance reproducibility."
+and well organized.,The structure and flow of the paper contribute to its clarity.
+"$\epsilon = 5$. Also, it would be better if the performance is benchmarked on colored image datasets (e.g., CIFAR-10).","The authors only chose $\epsilon = 1$ and 10, corresponding to high and low privacy budget."
+model used for personalized treatment selection,the paper incorporates a novel aspect (treatment grouping) in a standard framework for estimating individualized treatment rules.
+theoretical group-consistency property,the proposed method has a strong theoretical foundation and demonstrates consistency in recovering treatment group structures.
+on synthetic and real data,the efficiency of the approach is experimentally validated through comprehensive simulations and a real data application.
+may be observed for several treatments/pathologies,the model is designed for continuous outputs whereas discrete ones may require additional adaptations for effective implementation.
+the data in various situations,the model backbone is a linear regression and may underfit complex relationships in the data.
+well-studied envy-freeness concepts in fair resource allocation to policy design in MDPs.,This extends the existing frameworks of reward design by incorporating fairness considerations into the policy teaching process.
+"what loss, providing a complete story behind the envy-free incentive design model.",These results are significant as they not only establish the existence of solutions but also provide efficient methods for their computation.
+"the RL, reward shaping, and fair resource allocation literature.",This contextualization helps to position their work within the broader discourse on fairness in multi-agent systems.
+"knowledge of the reward and transitions, which is impractical for many settings.","The LP based approach requires exact knowledge of the agents' reward functions and discount factors, which may not be feasible in practical scenarios."
+discussion and help the model become more clear.,This would enhance the accessibility of the paper and demonstrate the real-world applicability of their findings.
