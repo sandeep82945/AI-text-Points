@@ -1,0 +1,226 @@
+True Sentences,Generated Sentences,Precision,Recall,F1 Score,Edit Distance
+a more general class of networks that subsumes vnns.,"in fact, it can be argued the other way that graph fourier transforms and graph signal processing are the result of a 'kernel trick' based on pca which is far older.",0.84094507,0.8594835,0.8501132,134
+of principal component pursuit.,the note that this results in a stable pca is interesting although over the years there have been robust forms of pca that have been developed including variations such as robust pca and sparse pca.,0.8182118,0.85832393,0.83778805,175
+has advantages over robust pca for this specific application.,i believe this is just an application of gcns to the graph consisting of data features as nodes and data points as signals on the nodes (rather than vice versa).,0.8136126,0.86287296,0.83751905,128
+could be useful.,the paper should potentially be reconfigured to simply talk about an application of gcns/gnns to feature covariance matrices and situations where that is beneficial.,0.81460994,0.87502956,0.84373945,151
+is precisely where gnns/gcns have contributed.,this is a strictly linear relationship; if this was changed to mutual information or some other relationship type then indeed a more complex relational graph would be necessary and this could enhance the model's capabilities.,0.816388,0.83830637,0.8272021,192
+kind of linear operation.,"again, i don't see much advantage in using a neural network for this purpose.",0.84347284,0.8754897,0.8591831,61
+"space, which also shows better empirical performance.","this paper takes a close look at the problem and discusses new efficient estimators that are based on mild assumptions, such as full-support not in the combinatorial action spaces, but in the feature space.",0.8344562,0.8752731,0.85437745,169
+in the slate literature.,this draws a nice connection between the theoretical framework and practical applications.,0.84812725,0.8652032,0.85658014,75
+for each individual action over features.,"for the pi estimator, it seems highly reliant on the discrete features of the action and the linear assumption of the reward, which seems reasonable for slate recommendations but may not hold true for all reward structures.",0.82314086,0.8558431,0.83917356,186
+estimator as the support divergence increases.,"it would be great if the authors could add more discussion along this line, especially since the experimental results indicate better performance of the similarity estimator under certain conditions.",0.828356,0.8623849,0.845028,163
+based on the model based approach.,"while it is acceptable for this paper to focus on weighting-based approaches, it would be beneficial to include additional baselines, especially since the proposed similarity estimator shares similarities with model-based approaches.",0.850945,0.9078319,0.87846845,200
+of the estimators.,this would further enhance the understanding of the trade-off between bias and variance in the proposed estimators.,0.85244226,0.92566985,0.88754815,97
+is new and non-trivial.,the upper and lower bounds established in the paper provide a significant contribution to understanding the statistical complexity of adversarial decision-making frameworks.,0.8406113,0.8456445,0.8431204,153
+are well explained.,"the relationships between complexities in adversarial/stochastic settings, and connections between different complexity notions are articulated clearly.",0.8342563,0.91482574,0.8726853,136
+questions section.,please see the appendix for additional details and clarifications on the proofs and examples provided.,0.81158686,0.8856303,0.84699345,88
+multiple activation functions.,"the paper generalizes the analysis for various activation functions and their multiplicities, providing a broader understanding of the condensation phenomenon.",0.83856905,0.92840743,0.8812044,134
+as they are not rigorous.,"the problem is with theorem 5.1, although the calculations are informative, they should not be called theorems as they lack rigorous proof and clarity in their formulation.",0.8426837,0.90334046,0.87195843,149
+and illustrative.,the figures are nice and effectively illustrate the key concepts discussed in the paper.,0.8552934,0.86512315,0.8601802,72
+"pruning, compressed networks etc.",this can yield new inductive biases and training algorithms; also relevant for improving generalization in over-parameterized models.,0.83556664,0.85801315,0.8466411,114
+is novel.,this mechanism enhances the model's ability to focus on clean samples while down-weighting mislabeled ones.,0.837633,0.8923912,0.86414546,99
+well.,"this simplicity is a significant advantage, as it reduces the complexity of the training process.",0.8495608,0.91755307,0.8822489,94
+understand.,the clarity of the presentation aids in understanding the proposed method and its implications.,0.8406641,0.9279436,0.8821503,84
+high clarity.,which enhances its accessibility to a broader audience.,0.8639704,0.9101399,0.88645434,45
+sampling method.,"dropout method, it introduces a significant improvement through adversarial training.",0.8553134,0.9403857,0.8958344,73
+theoretical analysis.,understanding how targeted dropout can influence the learning of latent variables.,0.8652817,0.9206401,0.8921029,67
+this paper,demonstrating improved performance across various datasets.,0.85819423,0.83846414,0.84821445,52
+baseline are significant.,baseline methods are substantial enough to warrant the complexity introduced by the adversarial dropout.,0.84811395,0.93003225,0.8871861,81
+as their choice.,and how this choice impacts the overall performance of the model.,0.8737025,0.8971122,0.88525265,53
+not discuss it.,not adequately address this inconsistency in the results.,0.89316773,0.9278123,0.9101604,43
+exaggerate the input discrimination (theorem 2).,"the propagation effect can break into two parts. first, the discrimination can propagate from input to output (theorem 1). second, the iterated mean aggregation feature imputation algorithm can exacerbate the disparities in feature values between groups.",0.8462714,0.9102771,0.87710816,215
+provably satisfy epsilon-fairness.,the algorithm can effectively reduce the discrimination risk while maintaining a low reconstruction error.,0.8621456,0.8616729,0.86190915,87
+is expected.,this tradeoff highlights the challenges in achieving both fairness and accuracy in model predictions.,0.842334,0.88824177,0.864679,91
+imputation algorithm.,this complexity arises from the interplay between graph structure and the imputation process.,0.8651682,0.91393495,0.88888323,78
+been compared.,the proposed cmwu is new and it improves existing regret bounds that have been established in the literature.,0.8455665,0.90259045,0.87314844,99
+mwu mapping.,"the proof has several novel ingredients, e.g., contraction property of the update rule which simplifies the convergence analysis.",0.83491147,0.8570637,0.8458426,121
+learning algorithm.,an uncoupled implementation of cmwu is a new decentralized multi-agent online learning dynamic that enhances computational efficiency.,0.8287618,0.9210352,0.87246555,117
+via proofs.,the paper is well written and all claims are justified with rigorous proofs and clear explanations.,0.8433993,0.91834897,0.87927985,89
+game learning.,the proposed cmwu takes a nice decentralized online implementation which is important for online multi-agent systems.,0.83288443,0.9001054,0.8651912,105
+in learning games.,the defined regret bound measures performance via sparse part of history instead of time average of history. this goes beyond the standard metric used in previous works.,0.82835275,0.89333355,0.8596169,152
+normal form games.,the established regret bound improves the dependence on t compared with the existing methods. this is an important advance in learning dynamics for games.,0.8455881,0.87570083,0.86038107,138
+benchmarks.,datasets such as ms coco and crowdpose.,0.82279897,0.9418889,0.8783256,31
+is particularly helpful.,provides a clear overview of the framework and its components.,0.86231637,0.8814459,0.8717762,51
+provided in the paper.,provided in the paper.,1.0,1.0,1.0,0
+modules involved.,"modules that interact in a non-trivial manner, which may pose challenges for understanding and implementation.",0.8351201,0.9057216,0.86898917,94
+the updated manuscript.,the paper to assess the practical applicability of the method.,0.87212706,0.9016415,0.88663876,49
+normalizing,which should be corrected for clarity.,0.80562663,0.79310197,0.7993152,34
+downstream problems,"the proposed support decomposition variational inference (sdvi) method addresses the challenges of variational inference in probabilistic programming languages (ppls) with stochastic support, making it a valuable contribution to the field.",0.77819073,0.8521606,0.8134976,223
+dimensionalities,"the experimental results demonstrate that sdvi significantly outperforms traditional variational inference approaches, showcasing its effectiveness in handling complex models.",0.8113093,0.7748943,0.7926838,160
+inference settings,the complexity of the latter two experiments highlights the robustness of sdvi in tackling challenging inference problems that involve stochastic control flow.,0.8060709,0.84298897,0.8241167,143
+readers,the clarity of the explanations and mathematical formulations will aid practitioners familiar with probabilistic programming languages in understanding and implementing sdvi.,0.78682196,0.812703,0.7995531,167
+ml background,"however, readers lacking a background in probabilistic programming may find the detailed mathematical concepts and terminologies challenging to grasp.",0.809331,0.82799935,0.81855875,138
+and efficient.,this approach effectively simplifies the processing of long video sequences.,0.86611664,0.8860494,0.87596965,65
+to reproduce.,the clarity of the writing enhances the accessibility of the research.,0.8674394,0.8919904,0.8795436,62
+proposed method.,the results clearly indicate significant improvements over previous methods.,0.8646674,0.9258164,0.8941977,63
+for such areas.,the introduction of object-centric tokens offers a promising direction for future research.,0.86068815,0.88034356,0.87040496,80
+the same as seqformer.,a comparison with other image instance segmentation methods would provide a more comprehensive evaluation.,0.8409465,0.8573547,0.8490713,89
+has an equal number of queries.,this could lead to a more efficient model that focuses on relevant information.,0.84556496,0.84122974,0.8433917,62
+results?,including these results would strengthen the paper's contributions.,0.83106494,0.8420735,0.83653307,60
+for practitioners.,"the proposed comenet provides a novel approach to 3d molecular graph learning, addressing the limitations of existing methods.",0.83151627,0.8916833,0.8605494,110
+its effectiveness.,the experiments on datasets like oc20 and molecule3d effectively showcase the performance improvements and efficiency of comenet over existing models.,0.81807035,0.911418,0.862225,132
+clarification.,clarity and refinement to enhance the overall readability and comprehension of the presented concepts.,0.83281684,0.93365574,0.8803581,88
+performance predictor.,performance of neural architectures in larger search spaces.,0.8553586,0.9217486,0.8873134,42
+the label distribution.,the target architecture space.,0.89929855,0.90244806,0.90087056,19
+studies.,studies that demonstrate the effectiveness of their proposed strategies.,0.87049866,0.94549525,0.90644836,64
+follow.,"the paper is well-structured, and easy to understand.",0.848378,0.929941,0.88728905,49
+practical significance.,"this paper explores the impact of noise data on anomaly detection tasks, which has highly significant implications for practical applications.",0.8439779,0.89987195,0.8710292,120
+on ad tasks.,"the proposed task setup is reasonable, and the authors have conducted thorough experiments to provide insights and analyze the impact of noise.",0.83683616,0.8810973,0.8583966,132
+is verified.,"from the experimental results, the effectiveness of the proposed method is convincingly demonstrated.",0.8547377,0.8873723,0.87074935,90
+-> achieved.,"there are some grammatical errors: line 156, $w_(i)$ should be $w_{(i)}$; line 268, lof achieves poor performance.",0.7845751,0.90364313,0.83991027,105
+eq(2) and (3).,"the mathematical notation should be improved. for example, the symbol for sample variance $\sum_{h,w}$ is confusing in the context of the paper.",0.8142098,0.795894,0.80494773,137
+explanations.,the critical threshold τ should be given more emphasis.,0.84849536,0.927915,0.88642985,48
+"of jobs, partitial overlapping;",this flexibility significantly enhances the usability of the approach in practical scenarios.,0.8585923,0.82081354,0.839278,77
+of this research;,this integration simplifies the adoption of the proposed method for a wide range of users.,0.8225212,0.8117877,0.81711924,78
+effective.,promising and shows significant improvements in training efficiency.,0.85968065,0.9281398,0.8925995,61
+workloads (resnet).,"experiments, which may limit the generalizability of the findings.",0.8204788,0.80583954,0.81309325,58
+no further experiments are conducted.,the lack of comprehensive testing in distributed environments raises concerns about its scalability and robustness.,0.8428756,0.8727608,0.85755795,89
+natural and emergent languages.,it also seems like a scientifically interesting research topic to me to find the linguistic differences between emergent and natural languages.,0.8489324,0.91170853,0.87920135,115
+to details.,"the methodology is clearly outlined, and the results are presented in a coherent manner.",0.85592043,0.8989076,0.8768875,79
+good.,the arguments are well-structured and easy to follow.,0.8390282,0.9206802,0.87795985,49
+nice focused contribution.,"while the experimental results do not fundamentally change the field of nlp, it is a valuable contribution to understanding emergent languages.",0.8408107,0.89454055,0.8668438,122
+signaling game.,this would provide a broader context for the findings.,0.8696054,0.89742684,0.8832971,47
+of the paper.,the focused approach allows for a deeper investigation into the specific aspects of has in emergent languages.,0.84721005,0.87292826,0.8598769,97
+(and not only).,the proposed method demonstrates a novel approach to uncertainty quantification.,0.84197766,0.8319547,0.8369362,71
+sufficiently self-contained,well-structured.,0.8867771,0.9089364,0.89772004,21
+appreciate a comment from the authors on this.,encourage the authors to discuss this limitation more thoroughly.,0.8742687,0.89248574,0.8832833,47
+"same architectures, and same setup?","training procedures, and evaluation metrics for a fair comparison?",0.8645518,0.86865956,0.8666009,49
+are available).,are referenced.,0.9142996,0.8510406,0.8815367,9
+easier to follow.,advised for clarity.,0.8560729,0.86406636,0.86005104,14
+neurips 2021,this work provides valuable insights into the limitations of gaussian posteriors in neural networks.,0.8208068,0.80266696,0.81163555,93
+proposed approach.,"the paper provides a thorough overview of the advancements in ai, particularly focusing on the scaling of transformer architectures and the challenges posed by deploying these models on mobile devices.",0.8348335,0.8964373,0.8645394,185
+approach.,"the authors detail their innovative approach, which combines knowledge distillation with a multi-step process to progressively quantize transformer models while maintaining accuracy.",0.83260816,0.9231081,0.87552565,173
+replicability.,"the paper outlines several best practices that enhance the training of binarized models, such as the use of a robust binarization framework and the importance of scaling factors.",0.82193756,0.8234835,0.82270986,166
+glue benchmark.,"the paper includes a detailed comparison with existing literature, demonstrating how their approach surpasses previous state-of-the-art results in binarizing transformer models.",0.8354976,0.9045563,0.8686565,165
+previous sota.,"the results indicate that the proposed binarized transformer model achieves competitive accuracy, significantly narrowing the gap to full-precision models, especially when data augmentation is applied.",0.81829584,0.8592695,0.83828235,188
+model performance.,"the paper does not sufficiently address the impact of parameter initialization and hyper-parameter tuning on the performance of the proposed binarized transformer models, which could be a critical factor in their effectiveness.",0.8278018,0.91514707,0.8692859,210
+tickets.,ticket pruning in enhancing data efficiency for image recognition tasks.,0.843137,0.92916167,0.8840616,64
+"regimes, such as data augmentation.",the authors also effectively demonstrate the synergy between lottery tickets and other data-efficient techniques.,0.8670603,0.8782799,0.87263405,92
+follow.,"follow, making it accessible to a broad audience.",0.8567885,0.9492873,0.9006692,42
+tickets that are useful in this context.,this analysis enriches the empirical findings and provides a deeper understanding of the mechanisms at play.,0.8553726,0.8621934,0.8587695,84
+be obtained using also other architectures.,it would be beneficial to explore whether the findings hold across more complex or varied network architectures.,0.84139967,0.87426394,0.85751706,80
+some results in nlp.,"however, the novelty lies in the specific application of sparse networks to low-data scenarios, which has not been extensively explored before.",0.82511777,0.84917367,0.83697295,126
+below is a more detailed assessment.,"the model under study is simplified but more complicated than existing ones (i.e., random features model).",0.82193637,0.8824226,0.85110617,81
+the true directions.,the landscape result is very clear.,0.87783253,0.9001347,0.8888437,26
+$n \gtrsim \omega(d^s)$.,it is proved that gradient flow (with certain warmup and fine-tuning) achieves the optimal generation error under optimal sample complexity.,0.80707026,0.7532562,0.7792352,126
+for lazy training.,the neural network structure is rather simplified.,0.86692876,0.9056195,0.8858519,41
+is crucial for this work.,"for instance, it is not mentioned that the weights are tied, which could lead to misunderstandings about the model's flexibility.",0.8418797,0.86875665,0.85510707,113
+of training neural nets.,perhaps the authors should discuss how these tweaks would affect the practical aspect of their approach.,0.8518216,0.88672465,0.86892277,90
+below).,clarifying these points would enhance the overall understanding of the results presented.,0.81616837,0.80087143,0.80844754,85
+with convincing empirical results.,the proposed approach addresses a significant gap in the existing literature.,0.87512565,0.89588654,0.8853844,63
+framework pretty clear.,they effectively illustrate the practical relevance of the sicmdp framework.,0.8527039,0.8924896,0.8721433,62
+to follow.,it demonstrates a clear methodology for tackling the challenges posed by sicmdps.,0.85107476,0.8762345,0.8634713,72
+the proposed algorithm.,the authors provide both the computational complexity and sample complexity for the proposed algorithm.,0.8662711,0.94895494,0.9057299,80
+and minimizing the errors.,the results clearly show that si-crl outperforms the baseline method both in terms of reducing constraint violations and improving overall performance.,0.85194147,0.89739734,0.8740788,131
+co problems.,the paper effectively highlights the relevance of neural combinatorial optimization in addressing np-hard problems.,0.8446921,0.9217756,0.881552,103
+find near-optimal solutions.,this loss function is a key contribution that enhances the model's ability to generalize across various combinatorial optimization tasks.,0.8491261,0.86638665,0.85766953,116
+of prior work.,this compatibility suggests that the method can be widely adopted in practical scenarios.,0.8492458,0.8653933,0.8572435,80
+below).,clarifying these sections would significantly improve the overall readability and comprehension of the paper.,0.81556857,0.801772,0.8086114,105
+prior works.,larger problem sizes should be explored to demonstrate the scalability and effectiveness of the proposed method.,0.84949076,0.8943895,0.87136215,102
+(see below).,addressing these issues would strengthen the validity of the experimental results presented.,0.8434306,0.79786235,0.8200139,84
+the current literature.,a more comprehensive review of related works would provide better context and highlight the novelty of the proposed approach.,0.8402077,0.87315804,0.85636604,107
+to follow,to follow.,0.94476515,0.9171779,0.9307672,1
+noisy pseudo-labels,unreliable pseudo labels.,0.97350883,0.9681066,0.9708002,10
+for other tasks,for improving feature representation.,0.888738,0.8691192,0.8788191,27
+datasets,benchmark datasets.,0.8947587,0.893802,0.89428014,11
+well,clearly.,0.96727574,0.93461734,0.9506661,6
+(6)?,(6)?,1.0000002,1.0000002,1.0000002,0
+and how?,during training?,0.8958013,0.89993846,0.8978651,13
+practical situation in real applications.,comprehensive evaluation of the method's performance.,0.89135903,0.8952102,0.8932805,38
+have more discussions on this.,provide insights into this observation.,0.9023614,0.8934121,0.89786446,30
+bmvc'18,.,0.80418384,0.7472391,0.7746664,7
+pami'19,.,0.8108219,0.77428705,0.7921334,7
+cvpr'20,.,0.80906916,0.7407867,0.77342373,7
+"bank, iccv'21",.,0.8078434,0.76210386,0.7843073,13
+is interesting.,the idea of collaboratively pruning all components of a model is innovative and addresses the complexities inherent in vits.,0.8389368,0.91504323,0.87533885,110
+state-of-the-art methods.,"the performance gain is impressive when compared to sufficient baseline methods, showcasing the effectiveness of the proposed approach.",0.8626078,0.85816723,0.8603818,119
+follow.,"this paper is well-written and easy to follow, making it accessible to a broad audience.",0.83248377,0.92041135,0.87424225,81
+network pruning methods.,"it's not clear how much computation cost and data is needed for the proposed method during pruning, when compared to state-of-the-art techniques, which could be elaborated further.",0.8383942,0.92739856,0.88065326,159
+better reflect the main contribution of the proposed method.,"the main novelty of this work is the interaction of different components during pruning, so the ablation study on this design is important. in my understanding, line 297-305 and table 7 aim to give such ablation studies, while it's not clear whether the setting of 'without second-order interactions' (line 300) in this ablation study means dropping all hessian-based terms in eq. (4) or only drop the cross-components terms (green blocks in figure 2(b)). i think the latter one can significantly impact the results and should be clarified in the paper.",0.8080016,0.8766085,0.840908,499
+at least conceptually.,and it opens up new avenues for research in neural network optimization.,0.84777814,0.84968555,0.84873074,58
+even capable of producing competitive model ensembles.,demonstrating the potential for significant advancements in model initialization and transfer learning.,0.876807,0.880481,0.8786401,76
+it somewhat impractical for real-life applications.,it less accessible for researchers with limited resources.,0.898098,0.8944927,0.8962918,42
+mapped back to the $d$-dimensional space.,generated and utilized in the context of the proposed sampling methods.,0.85514385,0.8133775,0.83373785,54
+empirical justification.,empirical analysis.,0.9380916,0.935392,0.9367398,12
+to interpret.,to interpret and understand.,0.9073414,0.95328164,0.92974436,15
+also clear.,well-organized and effectively illustrate the key findings.,0.8590944,0.899123,0.8786531,52
+with effective rank of the underlying matrix (appendix experiment does not really answer this)?,with respect to different parameters or initial conditions? providing this context would enhance the reader's understanding.,0.8495182,0.8399635,0.8447138,86
+where these attributes are important.,where computational efficiency is critical.,0.9171703,0.92466474,0.92090225,28
+the property of adaptive optimizers that makes them more effective in the regime studied.,the innovative aspects of their explicit penalty and its implications for shallow architectures.,0.86355674,0.86522496,0.8643901,69
+novelty.,contribution to the field.,0.8605906,0.9467927,0.901636,22
+attention in the community.,opportunities in this area.,0.920447,0.91693956,0.9186899,20
+results seem promising.,results are robust and well-presented.,0.87066144,0.92085564,0.8950554,25
+to understand.,to follow.,0.8911663,0.9073552,0.8991879,10
+mistakes in grammar:,grammatical errors.,0.89093435,0.8438074,0.86673075,18
+be polished.,be rephrased for clarity.,0.8008538,0.8995918,0.84735614,18
+be “hard”.,be lowercase.,0.8512356,0.86271054,0.85693467,8
+“…training/validation/test sets”.,formatted consistently.,0.8998517,0.8251153,0.86086446,25
+be “fig.12”.,be referenced correctly.,0.8837977,0.84914744,0.8661261,19
+reader to follow.,reader to verify the results.,0.89074385,0.89575326,0.8932415,16
+convincing empirical results.,strong empirical support.,0.94674826,0.94674826,0.94674826,15
+of fl.,the authors effectively address this gap by proposing a novel approach to participant selection.,0.851145,0.87876344,0.86473376,91
+practicaly feasible.,"efficient and scalable, demonstrating significant improvements over traditional methods.",0.86241734,0.8605105,0.8614629,75
+multiple models.,"various machine learning models, which strengthens the validity of their findings.",0.8647436,0.93316114,0.89765054,70
+process.,"framework, ensuring that sensitive data remains secure throughout the participant selection process.",0.8438631,0.9484403,0.8931008,92
+vfl scenarios.,"real-world applications, potentially limiting the generalizability of the proposed methods.",0.84208494,0.86014426,0.8510187,80
+can be problematic.,"could lead to suboptimal participant selection, suggesting the need for more strategic grouping methods.",0.85965985,0.9126431,0.8853595,89
+"""all-train"", etc.",should be clearly defined to enhance the clarity and rigor of the paper.,0.83630544,0.8370435,0.8366744,62
+and memory.,and environment entities effectively.,0.8995862,0.9390755,0.9189068,29
+usually used.,demonstrated through extensive experiments.,0.87954456,0.9100416,0.8945333,36
+memory slots.,"memory slots, highlighting their contributions to performance.",0.86553943,0.9128026,0.8885429,49
+much slower than recurrent module-based models.,less efficient due to its increased computational complexity.,0.883819,0.8780808,0.88094056,48
+that through atm architecture.,so effectively in the current implementation.,0.88355476,0.89253616,0.8880228,36
+arxiv:2104.01655 (2021).,arxiv:2006.03662.,0.95535135,0.89473546,0.92405045,11
+"pmlr, 2020.",icml 2021.,0.9084044,0.88480484,0.8964493,5
+arxiv:2202.09481 (2022).,arxiv:2010.03793.,0.925484,0.887404,0.90604407,14
+conventions through a pictionary-like game.,"the authors successfully model the evolution process of graphical conventions, providing a novel perspective on how visual communication can emerge.",0.85936064,0.84461284,0.8519229,119
+abstraction process.,the proposed surrogate training strategy is innovative and effectively enhances the learning process.,0.8597597,0.90360916,0.8811392,83
+on visual communication.,these metrics provide a robust framework for assessing the quality of the communication conventions developed by the agents.,0.8585396,0.8943473,0.8760777,102
+from image $i_s$.,improving the sketch generation process could lead to better communication outcomes.,0.8350329,0.7727483,0.8026841,75
+experiments somehow insufficient.,the limited dataset may restrict the generalizability of the findings and the robustness of the learned conventions.,0.82932794,0.8699758,0.84916574,96
+for their algorithm.,the clarity and structure of the paper enhance the reader's understanding of the complex concepts involved.,0.85585093,0.90778375,0.88105273,92
+this paper.,"the proposed approach, effectively situating the contributions within the existing body of knowledge.",0.85107064,0.918176,0.88335073,92
+the constraint violation.,"the regret and violation, providing a fresh perspective on constraint handling in online optimization.",0.87639415,0.9464751,0.91008747,78
+"introduction section (e.g., safety-critical applications).","it'd be helpful to add experiments for some of the real-world applications of this framework mentioned in the introduction, such as online advertising or resource allocation.",0.85423964,0.8652859,0.85972726,139
+adversarial and fixed constraints.,"'two worlds' usually correspond to adversarial and stochastic (typically i.i.d.) constraints; however, in this paper, it refers to fixed and adversarial constraints.",0.8321368,0.88516384,0.8578316,131
+not make such an assumption.,"and how the framework in this paper does not rely on this condition, thus broadening its applicability.",0.84858155,0.89915603,0.873137,84
+on page 6.,a clearer introduction of this concept earlier in the paper would aid in understanding its significance in the context of the proposed algorithm.,0.8364518,0.8658932,0.8509179,136
+against the more natural static benchmark.,"however, in the paper, the benchmark is further restricted to satisfy $g_t(x)\leq 0~ orall t\in[t]$. the authors should explain and motivate this choice of benchmark, and mention any potential hardness results for regret.",0.7980715,0.87346673,0.8340687,186
+new ideas and proof techniques.,the authors need to compare and contrast their algorithm with [18] and [30] and highlight the differences in approach and performance outcomes.,0.8308588,0.8794922,0.8544841,122
+are convincing.,"the numerical results demonstrate that the proposed method, fasterrisk, consistently outperforms existing baselines in terms of accuracy and speed.",0.83770216,0.89774334,0.86668414,134
+as the line search).,"the method has three separate steps, which can lead to some inconveniences, such as potential error accumulation and the possibility of lengthy coordinate descent processes.",0.8159158,0.8197491,0.81782794,154
+current contribution.,this limitation may affect the practical applicability of the model in certain real-world scenarios where real-valued scores are essential.,0.8348211,0.8893559,0.8612261,125
+follow.,"overall, the clarity of the writing enhances the reader's comprehension.",0.86531895,0.94206214,0.9020612,67
+is novel.,this approach effectively leverages the strengths of generative models for contrastive learning.,0.84364206,0.89887047,0.87038106,87
+experimental part.,"specifically, the choice of image resolution and training epochs raises questions about the validity of the comparisons.",0.8429281,0.89268136,0.8670916,106
+simclr should reach 62.8% top-1 accuracy),"i think strictly following the setting from the original paper will be a fairer comparison, such as using 224x224 images and 100 epochs for training.",0.82500553,0.8269268,0.82596505,127
+final result?,it would be beneficial to explore how variations in generative model quality impact the results.,0.83121884,0.8578006,0.84430057,84
+generative model?,understanding the computational overhead associated with this step would provide valuable insights into the practicality of the approach.,0.83290493,0.81886905,0.8258274,123
+loss constraint,distillation.,0.8782863,0.8497852,0.86380076,12
+environments,settings.,0.97048897,0.94104236,0.95553887,10
+well as discussed.,demonstrated by the results.,0.8777932,0.8678687,0.8728027,23
+madt-online too.,other state-of-the-art methods.,0.87610304,0.8604988,0.8682308,23
+to the proposed method.,to the proposed approach.,0.98035353,0.98035353,0.98035353,7
+the text,the manuscript.,0.92838585,0.880849,0.9039929,10
+in their experiments.,this insight aligns well with the established understanding of fine-grained visual categorization.,0.8362851,0.8876022,0.8611799,83
+the authors.,"the authors, providing a coherent narrative throughout.",0.8753499,0.94564354,0.90914,43
+clear explanation of the intuition.,conceptual overview that emphasizes the practical implications of their findings.,0.89535385,0.9135676,0.90436906,58
+r -- when computing distances and the final metric?,"and the relational vector r, which collectively enhance the model's ability to capture complex relationships?",0.8549465,0.8689064,0.86186993,82
+was actually due to their method or better data augmentation or underlying architectures.,is statistically validated to ensure the robustness of their claims.,0.8689169,0.84006315,0.8542465,66
+my best knowledge.,the field of video action recognition.,0.8606036,0.87811136,0.8692693,31
+well-written.,well-structured.,0.89603734,0.9319888,0.9136595,7
+strong.,convincing.,0.99760795,0.99760795,0.99760795,8
+different backbones.,various image backbones.,0.90933573,0.93743473,0.92317146,12
+questions section,the need for more detailed insights into the feature representations.,0.8264883,0.8268582,0.8266732,57
+limitation section,the explanation of the alignment and de-alignment processes.,0.835953,0.8621242,0.8488369,50
+details.,details and a clear structure.,0.8613106,0.9517523,0.9042757,22
+large margin,significant margin across various tasks.,0.8989876,0.9391308,0.9186208,33
+scenario is new,to contrastive learning in this context is innovative.,0.8434818,0.8518241,0.84763247,42
+hypothesis on cw10/cw20 benchmarks.,hypotheses in a comprehensive manner across various scenarios.,0.85102963,0.8501415,0.85058534,42
+performance in cw10/cw20,"results, demonstrating the effectiveness of the proposed strategies.",0.8693038,0.8314936,0.84997845,59
+the limitations of the work.,"this limitation, which encourages further exploration in different environments and with alternative algorithms.",0.8756359,0.91805387,0.89634335,87
+treatment selection,this innovative approach enhances the traditional methods by allowing for the identification of treatment groups based on similar effects.,0.8246188,0.8365358,0.8305345,122
+property,this consistency is crucial for ensuring that the method reliably identifies treatment groups across different datasets.,0.805176,0.8159515,0.810528,114
+real data,these validations demonstrate the robustness and applicability of the method in practical scenarios.,0.82801527,0.851594,0.83963907,91
+several treatments/pathologies,this limitation suggests that future work could explore adaptations of the model to handle discrete outcomes effectively.,0.8244845,0.82260346,0.8235429,102
+various situations,considering more flexible modeling techniques could improve the model's performance in capturing intricate relationships in the data.,0.8335545,0.85047436,0.84192944,117
